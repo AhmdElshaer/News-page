@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/master.css">
+  <!-- Font Link From GoogleFonts -->
+  <title>Global News</title>
+</head>
+<body>
+  <header class="position-sticky top-0 ">
+    <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+          <form class="bg-light d-flex align-items-center rounded">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+        <h1><a class="navbar-brand" href="#">اليوم السابع</a></h1>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+          <ul class="navbar-nav ms-auto flex-start d-flex flex-row-reverse">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./album.html">ألبوم الصور</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ourTV.html">شاشتنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">عاجل</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link c-danger" href="#">الاقسام</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">المزيد</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<a class="left-ad">AD</a>
+<a class="right-ad">AD</a>
+
+<section class="gallery">
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+          <img src="./images/i-1.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+          <img src="./images/i-2.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+          <img src="./images/i-3.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+          <img src="./images/i-4.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+          <img src="./images/i-5.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+          <img src="./images/i-6.jpg" style="width:100%">
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="./images/i-1.jpg" style="width:100%" onclick="currentSlide(1)" 
+          alt="فلسطيني في مشادة كلامية مع جندي إسرائيلي، خلال اشتباكات بشأن قرار إسرائيلي بإغلاق مدرسة فلسطينية بالقرب من نابلس بالضفة الغربية المحتلة.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/i-2.jpg" style="width:100%" onclick="currentSlide(2)" 
+          alt="رجل يحاول منع إعلاميين من التقدم باتجاه القنصلية السعودية في إسطنبول، لدى وصول محققين سعوديين قبل الشرطة التركية، للتحقيق في قضية مقتل الصحفي السعودي جمال خاشقجي.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/i-3.jpg" style="width:100%" onclick="currentSlide(3)" 
+          alt="الفنانة مونستر شيتويند، التي رشحت لجائزة تيرنر البريطانية في عام 2012، تقف بجوار أحد أعمالها الفنية، بالمعرض الوطني الاسكتلندي للفن الحديث، في إدنبرة.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/i-4.jpg" style="width:100%" onclick="currentSlide(4)" 
+          alt="شبكة عنكبوت يبلغ طولها 1000 متر تغطي الطريق، بجانب بحيرة فيستونيدا شمالي اليونان. ويعتقد أن الطقس الأكثر دفئا من المعتاد في البلاد وزيادة أعداد البعوض قد أسهمت في زيادة أعداد العناكب.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/i-5.jpg" style="width:100%" onclick="currentSlide(5)" 
+          alt="طائرة مروحية ترش مطهرا للجراثيم، فوق منطقة ضربها زلزال يوم 28 سبتمبر/ أيلول الماضي في مدينة بالو في إندونيسيا.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/i-6.jpg" style="width:100%" onclick="currentSlide(6)" 
+          alt="رجل يسير حافي القدمين حول فحم يحترق، أثناء الاحتفال بمهرجان التسعة المزدوجة - الذي يحل في اليوم التاسع من الشهر التاسع في التقويم الصيني - في مقاطعة بانان بإقليم تشجيانغ في الصين.">
+        </div>
+      </div>
+    </div>
+</section>
+
+<footer>
+
+</footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
